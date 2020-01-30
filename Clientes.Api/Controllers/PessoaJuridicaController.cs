@@ -1,10 +1,13 @@
 ﻿using Clientes.Domain.Entities;
 using Clientes.Domain.Repositories;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 namespace Clientes.Api.Controllers
 {
+    //[EnableCors("AllowOrigin")]
     [Route("pessoa-juridica")]
     public class PessoaJuridicaController : ControllerBase
     {

@@ -42,6 +42,10 @@ namespace Clientes.Api
                 options.JsonSerializerOptions.DictionaryKeyPolicy = null;
             });
 
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
             services.Configure<MongoDbDatabaseSettings>(configuration.GetSection(nameof(MongoDbDatabaseSettings)));
             services.AddSingleton<IMongoDbDatabaseSettings>(sp => sp.GetRequiredService<IOptions<MongoDbDatabaseSettings>>().Value);
             services.AddControllers();
@@ -55,6 +59,14 @@ namespace Clientes.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(options =>
+            {
+                options
+                .AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+            });
 
             app.UseRouting();
             app.UseSwagger();

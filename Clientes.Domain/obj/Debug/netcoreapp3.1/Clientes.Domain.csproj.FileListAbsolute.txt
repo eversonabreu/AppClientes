@@ -13,3 +13,10 @@ C:\projetos\appClientes\AppClientes\Clientes.Domain\obj\Debug\netcoreapp3.1\Clie
 C:\projetos\appClientes\AppClientes\Clientes.Domain\obj\Debug\netcoreapp3.1\Clientes.Domain.AssemblyInfo.cs
 C:\projetos\appClientes\AppClientes\Clientes.Domain\obj\Debug\netcoreapp3.1\Clientes.Domain.dll
 C:\projetos\appClientes\AppClientes\Clientes.Domain\obj\Debug\netcoreapp3.1\Clientes.Domain.pdb
+C:\projetos\AppClientes\Clientes.Domain\bin\Debug\netcoreapp3.1\Clientes.Domain.deps.json
+C:\projetos\AppClientes\Clientes.Domain\bin\Debug\netcoreapp3.1\Clientes.Domain.dll
+C:\projetos\AppClientes\Clientes.Domain\bin\Debug\netcoreapp3.1\Clientes.Domain.pdb
+C:\projetos\AppClientes\Clientes.Domain\obj\Debug\netcoreapp3.1\Clientes.Domain.AssemblyInfoInputs.cache
+C:\projetos\AppClientes\Clientes.Domain\obj\Debug\netcoreapp3.1\Clientes.Domain.AssemblyInfo.cs
+C:\projetos\AppClientes\Clientes.Domain\obj\Debug\netcoreapp3.1\Clientes.Domain.dll
+C:\projetos\AppClientes\Clientes.Domain\obj\Debug\netcoreapp3.1\Clientes.Domain.pdb

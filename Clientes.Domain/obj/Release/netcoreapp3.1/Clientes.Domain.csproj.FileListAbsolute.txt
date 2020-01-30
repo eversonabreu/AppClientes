@@ -6,3 +6,11 @@ C:\projetos\appClientes\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Cl
 C:\projetos\appClientes\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Clientes.Domain.AssemblyInfo.cs
 C:\projetos\appClientes\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Clientes.Domain.dll
 C:\projetos\appClientes\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Clientes.Domain.pdb
+C:\projetos\AppClientes\Clientes.Domain\bin\Release\netcoreapp3.1\Clientes.Domain.deps.json
+C:\projetos\AppClientes\Clientes.Domain\bin\Release\netcoreapp3.1\Clientes.Domain.dll
+C:\projetos\AppClientes\Clientes.Domain\bin\Release\netcoreapp3.1\Clientes.Domain.pdb
+C:\projetos\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Clientes.Domain.csprojAssemblyReference.cache
+C:\projetos\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Clientes.Domain.AssemblyInfoInputs.cache
+C:\projetos\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Clientes.Domain.AssemblyInfo.cs
+C:\projetos\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Clientes.Domain.dll
+C:\projetos\AppClientes\Clientes.Domain\obj\Release\netcoreapp3.1\Clientes.Domain.pdb

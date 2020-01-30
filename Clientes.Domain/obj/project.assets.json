@@ -5047,19 +5047,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\geral\\.nuget\\packages\\": {}
+    "C:\\Users\\data12027\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Domain\\Clientes.Domain.csproj",
+      "projectUniqueName": "C:\\projetos\\AppClientes\\Clientes.Domain\\Clientes.Domain.csproj",
       "projectName": "Clientes.Domain",
-      "projectPath": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Domain\\Clientes.Domain.csproj",
-      "packagesPath": "C:\\Users\\geral\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Domain\\obj\\",
+      "projectPath": "C:\\projetos\\AppClientes\\Clientes.Domain\\Clientes.Domain.csproj",
+      "packagesPath": "C:\\Users\\data12027\\.nuget\\packages\\",
+      "outputPath": "C:\\projetos\\AppClientes\\Clientes.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\geral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\data12027\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
