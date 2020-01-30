@@ -7,8 +7,7 @@ namespace Clientes.Domain.Entities
     public class PessoaJuridicaEntity
     {
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public ObjectId Id { get; set; }
 
         public string RazaoSocial { get; set; }
         public string NomeFantasia { get; set; }

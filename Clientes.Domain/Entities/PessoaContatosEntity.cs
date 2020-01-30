@@ -12,11 +12,14 @@ namespace Clientes.Domain.Entities
     public class PessoaContatosEntity
     {
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
-
+        public ObjectId Id { get; set; }
         public TipoContatoEnum TipoContato { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
+
+        public PessoaContatosEntity()
+        {
+            Id = ObjectId.GenerateNewId();
+        }
     }
 }

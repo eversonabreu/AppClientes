@@ -1,0 +1,7 @@
+Se usar o Windows, o MongoDB será instalado em C:\Arquivos de Programas\MongoDB por padrão. Adicione C:\Arquivos de Programas\MongoDB\Servidor\<número_de_versão>\bin à variável de ambiente Path. Essa alteração possibilita o acesso ao MongoDB a partir de qualquer lugar em seu computador de desenvolvimento.
+
+
+
+mongod --dbpath <data_directory_path>
+mongo
+use <database_name>

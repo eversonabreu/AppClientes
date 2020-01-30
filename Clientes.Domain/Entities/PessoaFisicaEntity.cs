@@ -8,8 +8,7 @@ namespace Clientes.Domain.Entities
     public class PessoaFisicaEntity
     {
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public ObjectId Id { get; set; }
 
         public string NomeCompleto { get; set; }
         public string Cpf { get; set; }

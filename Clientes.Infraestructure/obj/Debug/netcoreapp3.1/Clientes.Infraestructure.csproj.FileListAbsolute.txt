@@ -9,3 +9,14 @@ C:\projetos\ops\Clientes\Clientes.Infraestructure\bin\Debug\netcoreapp3.1\Client
 C:\projetos\ops\Clientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.csproj.CopyComplete
 C:\projetos\ops\Clientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.dll
 C:\projetos\ops\Clientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.pdb
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\bin\Debug\netcoreapp3.1\Clientes.Infraestructure.deps.json
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\bin\Debug\netcoreapp3.1\Clientes.Infraestructure.dll
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\bin\Debug\netcoreapp3.1\Clientes.Infraestructure.pdb
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\bin\Debug\netcoreapp3.1\Clientes.Domain.dll
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\bin\Debug\netcoreapp3.1\Clientes.Domain.pdb
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.csprojAssemblyReference.cache
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.AssemblyInfoInputs.cache
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.AssemblyInfo.cs
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.csproj.CopyComplete
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.dll
+C:\projetos\appClientes\AppClientes\Clientes.Infraestructure\obj\Debug\netcoreapp3.1\Clientes.Infraestructure.pdb

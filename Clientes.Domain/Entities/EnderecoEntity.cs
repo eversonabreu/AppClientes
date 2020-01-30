@@ -6,10 +6,13 @@ namespace Clientes.Domain.Entities
     public class EnderecoEntity
     {
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
-
+        public ObjectId Id { get; set; }
         public string Estado { get; set; }
         public string Cidade { get; set; }
+
+        public EnderecoEntity()
+        {
+            Id = ObjectId.GenerateNewId();
+        }
     }
 }

@@ -2,6 +2,7 @@
 using Clientes.Domain.Repositories;
 using Clientes.Infraestructure.MongoDb;
 using Clientes.Infraestructure.Utils;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,7 @@ namespace Clientes.Infraestructure.Repositories
 
         public List<PessoaFisicaEntity> GetAll() => pessoa.Find(entity => true).ToList();
 
-        public PessoaFisicaEntity GetById(string id) => pessoa.Find(entity => entity.Id == id).FirstOrDefault();
+        public PessoaFisicaEntity GetById(string id) => pessoa.Find(entity => entity.Id.ToString() == id).FirstOrDefault();
 
         public PessoaFisicaEntity Create(PessoaFisicaEntity entity)
         {
@@ -37,6 +38,7 @@ namespace Clientes.Infraestructure.Repositories
             const decimal valorLimiteCreditoInicial = 100m;
             entity.ValorLimiteCredito = valorLimiteCreditoInicial;
 
+            entity.Id = ObjectId.GenerateNewId();
             pessoa.InsertOne(entity);
             return entity;
         }
@@ -46,8 +48,8 @@ namespace Clientes.Infraestructure.Repositories
             ValidarCpf(entity, id);
 
             var idsEnderecos = new List<string>();
-            entity.Enderecos.ForEach(item => idsEnderecos.Add(item.Id));
-            GetById(id).Enderecos.ForEach(item => idsEnderecos.Add(item.Id));
+            entity.Enderecos.ForEach(item => idsEnderecos.Add(item.Id.ToString()));
+            GetById(id).Enderecos.ForEach(item => idsEnderecos.Add(item.Id.ToString()));
             idsEnderecos = idsEnderecos.Distinct().ToList();
             if (idsEnderecos.Count > 3)
             {
@@ -59,7 +61,7 @@ namespace Clientes.Infraestructure.Repositories
                 throw new Exception("O valor de limite de crédito não pode ser negativo.");
             }
 
-            pessoa.ReplaceOne(ps => ps.Id == id, entity);
+            pessoa.ReplaceOne(ps => ps.Id.ToString() == id, entity);
         }
 
         private void ValidarCpf(PessoaFisicaEntity entity, string id = null)
@@ -78,13 +80,13 @@ namespace Clientes.Infraestructure.Repositories
             }
             else
             {
-                if (GetAll().Count(item => item.Cpf == entity.Cpf && item.Id != id) > 0)
+                if (GetAll().Count(item => item.Cpf == entity.Cpf && item.Id.ToString() != id) > 0)
                 {
                     throw new Exception("O CPF informado já esta sendo utilizado em outro registro.");
                 }
             }
         }
 
-        public void Remove(string id) => pessoa.DeleteOne(entity => entity.Id == id);
+        public void Remove(string id) => pessoa.DeleteOne(entity => entity.Id.ToString() == id);
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\ops\\Clientes\\Clientes.Domain\\Clientes.Domain.csproj": {}
+    "C:\\projetos\\appClientes\\AppClientes\\Clientes.Domain\\Clientes.Domain.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\ops\\Clientes\\Clientes.Domain\\Clientes.Domain.csproj": {
+    "C:\\projetos\\appClientes\\AppClientes\\Clientes.Domain\\Clientes.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\ops\\Clientes\\Clientes.Domain\\Clientes.Domain.csproj",
+        "projectUniqueName": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Domain\\Clientes.Domain.csproj",
         "projectName": "Clientes.Domain",
-        "projectPath": "C:\\projetos\\ops\\Clientes\\Clientes.Domain\\Clientes.Domain.csproj",
-        "packagesPath": "C:\\Users\\data12027\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\ops\\Clientes\\Clientes.Domain\\obj\\",
+        "projectPath": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Domain\\Clientes.Domain.csproj",
+        "packagesPath": "C:\\Users\\geral\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\data12027\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\geral\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

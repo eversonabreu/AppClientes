@@ -6412,19 +6412,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\data12027\\.nuget\\packages\\": {}
+    "C:\\Users\\geral\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\ops\\Clientes\\Clientes.Api\\Clientes.Api.csproj",
+      "projectUniqueName": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Api\\Clientes.Api.csproj",
       "projectName": "Clientes.Api",
-      "projectPath": "C:\\projetos\\ops\\Clientes\\Clientes.Api\\Clientes.Api.csproj",
-      "packagesPath": "C:\\Users\\data12027\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\ops\\Clientes\\Clientes.Api\\obj\\",
+      "projectPath": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Api\\Clientes.Api.csproj",
+      "packagesPath": "C:\\Users\\geral\\.nuget\\packages\\",
+      "outputPath": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\data12027\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\geral\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6437,8 +6437,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\projetos\\ops\\Clientes\\Clientes.Infraestructure\\Clientes.Infraestructure.csproj": {
-              "projectPath": "C:\\projetos\\ops\\Clientes\\Clientes.Infraestructure\\Clientes.Infraestructure.csproj"
+            "C:\\projetos\\appClientes\\AppClientes\\Clientes.Infraestructure\\Clientes.Infraestructure.csproj": {
+              "projectPath": "C:\\projetos\\appClientes\\AppClientes\\Clientes.Infraestructure\\Clientes.Infraestructure.csproj"
             }
           }
         }
